@@ -52,6 +52,7 @@ requirements:
     - qpdf <12
     - zlib
     - blend2d
+    - freetype
   run:
     - python
     - ${{ "pywin32 >=305" if win }}
