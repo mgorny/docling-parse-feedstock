@@ -1,9 +1,8 @@
 context:
-  name: docling-parse
   version: 7.9.0
 
 package:
-  name: ${{ name|lower }}
+  name: docling-parse
   version: ${{ version }}
 
 source:
