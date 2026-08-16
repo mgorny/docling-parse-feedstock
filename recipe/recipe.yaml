@@ -1,6 +1,6 @@
 context:
   name: docling-parse
-  version: 7.10.0
+  version: 7.11.0
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/DS4SD/docling-parse/archive/refs/tags/v${{ version }}.zip
-  sha256: 551051568809f8b38ba0ecc89d86aa345557151aca671a9bbe97f653d3360fd8
+  sha256: b23bf8c55ee629d6e42a4534dcb2100b6b500fa5a5f11d1ce154b06d735a2a97
   patches:
     - fix-utfcpp.patch
 
@@ -49,7 +49,7 @@ requirements:
     - libjpeg-turbo
     - openjpeg
     - lcms2
-    - qpdf <12
+    - qpdf
     - zlib
     - blend2d
     - freetype
