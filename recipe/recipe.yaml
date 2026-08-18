@@ -44,7 +44,7 @@ requirements:
     - pip
     # libraries
     - cxxopts
-    - loguru-cpp
+    - loguru-cpp >=2.1.0.post20260731
     - nlohmann_json
     - utfcpp
     - libjpeg-turbo
